@@ -12,7 +12,7 @@ All operations, except negative sampling, are performed directly on GPU, which i
 ## Usage example:
 ```python
 import numpy as np
-from interactions.datasets import observations_loader, UserBatchDataset
+from cofida.datasets import observations_loader, UserBatchDataset
 
 # standard coordinate format for user-item interactions (can also have 3rd column for rating),
 # data can also be in scipy's sparse CSR format
